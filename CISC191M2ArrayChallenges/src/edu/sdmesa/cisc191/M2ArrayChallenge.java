@@ -33,12 +33,57 @@ public class M2ArrayChallenge
 	public static boolean contains(int[] array, int value)
 	{
 		// TODO: return the correct value
-		return false;
+		boolean containsValue = false;
+		for (int i = 0; i < array.length; i++) 
+		{
+			if (array[i] == value)
+			{
+				containsValue = true;
+			}
+		}
+		return containsValue;
 	}
 	
 	// Use this template for the methods
 	/**
-	 * Purpose:
+	 * Purpose: Return the first index value in the array
+	 * 
+	 * @param array
+	 * @return
+	 */
+	public static int find(int[] array, int value)
+	{
+		for(int i = 0; i < array.length; i++) 
+		{
+			if(array[i] == value)
+			{
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	/**
+	 * Purpose: Count Values
+	 * 
+	 * @param array
+	 * @return
+	 */
+	public static int countValues(int[] array, int value)
+	{
+		int count = 0;
+		for(int i = 0; i < array.length; i++) 
+		{
+			if(array[i] == value)
+			{
+				count++;
+			}
+		}
+		return count;
+	}
+
+	/**
+	 * Purpose: In Order
 	 * 
 	 * @param array
 	 * @return
@@ -47,5 +92,95 @@ public class M2ArrayChallenge
 //	{
 //		return ???;
 //	}
-
+	
+	/**
+	 * Purpose: Swap
+	 * 
+	 * @param array
+	 * @return
+	 */
+//	public static ??? ???(???[] array)
+//	{
+//		return ???;
+//	}
+	
+	/**
+	 * Purpose: Bubble Up
+	 * 
+	 * @param array
+	 * @return
+	 */
+//	public static ??? ???(???[] array)
+//	{
+//		return ???;
+//	}
+	
+	/**
+	 * Purpose: Bubble Sort
+	 * 
+	 * @param array
+	 * @return
+	 */
+//	public static ??? ???(???[] array)
+//	{
+//		return ???;
+//	}
+	
+	/**
+	 * Purpose: Array Elements Equal
+	 * 
+	 * @param array
+	 * @return
+	 */
+//	public static ??? ???(???[] array)
+//	{
+//		return ???;
+//	}
+	
+	/**
+	 * Purpose: Backwards
+	 * 
+	 * @param array
+	 * @return
+	 */
+//	public static ??? ???(???[] array)
+//	{
+//		return ???;
+//	}
+	
+	/**
+	 * Purpose: is Palendrome
+	 * 
+	 * @param array
+	 * @return
+	 */
+//	public static ??? ???(???[] array)
+//	{
+//		return ???;
+//	}
+	
+	/**
+	 * Purpose: Get Element
+	 * 
+	 * @param array
+	 * @return
+	 */
+//	public static ??? ???(???[] array)
+//	{
+//		return ???;
+//	}
+	
+	/**
+	 * Purpose: Add Row
+	 * 
+	 * @param array
+	 * @return
+	 */
+//	public static ??? ???(???[] array)
+//	{
+//		return ???;
+//	}
+	
+	
+	
 }
